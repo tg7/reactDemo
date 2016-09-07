@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "demo files experimenting with reactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tg7/reactDemo.git"
+  },
+  "author": "tg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tg7/reactDemo/issues"
+  },
+  "homepage": "https://github.com/tg7/reactDemo#readme",
+  "dependencies": {
+    "babel": "^6.5.2"
+  }
+}
