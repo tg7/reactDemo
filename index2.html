@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--React CDN-->
+<script src="https://fb.me/react-0.13.3.min.js"></script>
+
+<!--Babel CDN-->
+<script src="https://fb.me.JSXTransformer-0.13.3.js"></script>
+  <title>React Demo File</title>
+
+  </head>
+  <body>
+  <div id="react-container"></div>
+    <script type="text/jsx">
+
+      var myCompontent = React.createClass({
+        render: function() {
+          return <div>My React Component</div>
+      }
+    });
+
+    React.render(<div>
+                <MyComponent text="Hello World"/>
+                <MyComponent/>
+                <MyComponent/>
+                </div>), document.getElementById('react-container'));
+   
+  </script>
+</body>
+</html>
